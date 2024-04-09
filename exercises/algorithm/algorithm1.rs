@@ -72,6 +72,7 @@ impl<T> LinkedList<T> {
 	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
 	{
 		//TODO
+        //* 创建一个新的实例并返回
 		Self {
             length: 0,
             start: None,
